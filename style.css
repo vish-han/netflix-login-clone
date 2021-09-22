@@ -59,6 +59,11 @@ margin-top: 30px;
     transition: background-color .5s;
     width: 15%;
 }
+
+#front .content_front .primary_btn:hover{
+    background-color: rgb(252, 110, 110);
+}
+
 #enjoy_tv{
 padding-top: 75px;
     border-bottom: 4px solid #c0c0c0;
