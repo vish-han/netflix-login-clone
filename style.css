@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content_front h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 50px;
+    
+}
+
+    
+    header img{
+        height: 100px;
+        margin-top: 0px;
+    }
+.content_front p{
+   text-align: center;
+   font-size: 24px;
+  
+   font-weight: 400;
+}
+
+#front{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   overflow: hidden;
+    color: white;
+    width: 100vw;
+    height:53vw;
+    border-bottom: 4px solid #c0c0c0;
+}
+#front .content_front {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#front .content_front .primary_btn{
+    padding: .5rem .5rem;
+    height:2.5rem;
+    display: block;
+    background-color: red;
+    border-radius: 5px;
+margin-top: 30px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color .5s;
+    width: 15%;
+}
+#enjoy_tv{
+padding-top: 75px;
+    border-bottom: 4px solid #c0c0c0;
+    background-color: black;
+    color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#enjoy_tv img{
+
+display: block;
+margin-right: 120px;
+
+
+
+  
+}
+#download{
+    padding-top: 75px;
+        border-bottom: 4px solid #c0c0c0;
+        background-color: black;
+        color: white;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+ #download img{
+    display: block;
+    margin-right: 120px;
+    
+ }   
+#watch{
+        padding-top: 75px;
+            border-bottom: 4px solid #c0c0c0;
+            background-color: black;
+            color: white;
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+        }
+        #watch img{
+            display: block;
+            margin-right: 120px;
+            
+         }   
+#children{
+            padding-top: 75px;
+                border-bottom: 4px solid #c0c0c0;
+                background-color: black;
+                color: white;
+                height: 150px;
+                display: flex;
+                flex-direction: row;
+                justify-content:space-between;
+            }
+        
+#enjoy_tv content{
+
+}
+#download{
+    padding-top: 75px;
+        border-bottom: 4px solid #c0c0c0;
+        background-color: black;
+        color: white;
+        height: 150px;
+    }
+#watch{
+        padding-top: 75px;
+            border-bottom: 4px solid #c0c0c0;
+            background-color: black;
+            color: white;
+            height: 150px;
+        }      
+
+            footer{
+                text-align: center;
+                background-color: black;
+                color: white;   
+            height: 30px;         }     
